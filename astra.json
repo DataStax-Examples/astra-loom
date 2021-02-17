@@ -1,0 +1,11 @@
+{
+  "name": "Astra Loom",
+  "description": "Loom is a thread based chat server, where users can send messages to one or more threads via hashtags (ex. I'm heading to the park at noon #family #friends #frisbee_club ).",
+  "duration": "60 minutes",
+  "skillLevel": "Advanced",
+  "gitpodUrl": "https://gitpod.io#https://github.com/DataStax-Examples/astra-loom",
+  "githubUrl": "https://github.com/DataStax-Examples/astra-loom",
+  "tags": [{ "name": "labs", "color": "warning" }, { "name": "elixir" }],
+  "category": "apps",
+  "priority": 3
+}
