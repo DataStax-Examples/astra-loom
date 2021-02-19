@@ -3,7 +3,7 @@
 *60 minutes, Advanced, [Start Building](https://github.com/DataStax-Examples/astra-loom#prerequisites)*
 <!--- ENDEXCLUDE --->
 
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-sample-app-default.png)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-loom/master/screenshot.png)
 
 Loom is a thread based chat server, where users can send messages to one or more threads via hashtags (ex. "I'm heading to the park at noon #family #friends #frisbee_club" ).  Users can subscribe to new threads they see by clicking them and start new threads but just adding a new hashtag to a message.
   
