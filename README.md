@@ -1,5 +1,5 @@
 <!--- STARTEXCLUDE --->
-# Astra Loom
+# Astra DB Loom
 *60 minutes, Advanced, [Start Building](https://github.com/DataStax-Examples/astra-loom#prerequisites)*
 <!--- ENDEXCLUDE --->
 
@@ -8,13 +8,13 @@
 Loom is a thread based chat server, where users can send messages to one or more threads via hashtags (ex. "I'm heading to the park at noon #family #friends #frisbee_club" ).  Users can subscribe to new threads they see by clicking them and start new threads but just adding a new hashtag to a message.
   
 ## How this works
-The app demonstrates working with DataStax Astra, Elixir, and Phoenix Liveviews together. The project attempts to make the best use of this stack.  Messages histories are saved and loaded in Astra, while new messages are shared via Phoenix channels between all active users in a "thread".  The goal is a fast, scalable, and durable chat/messaging application.
+The app demonstrates working with DataStax Astra DB, Elixir, and Phoenix Liveviews together. The project attempts to make the best use of this stack.  Messages histories are saved and loaded in Astra DB, while new messages are shared via Phoenix channels between all active users in a "thread".  The goal is a fast, scalable, and durable chat/messaging application.
 
 ## Get Started
 To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/astra-loom](https://github.com/DataStax-Examples/astra-loom#prerequisites)
 
 <!--- STARTEXCLUDE --->
-# Running Astra Loom
+# Running Astra DB Loom
 Follow the instructions below to get started.
 
 ## Prerequisites
@@ -63,7 +63,7 @@ Let's do some initial setup by creating a serverless(!) database.
 ### Running on your local machine (Docker)
 1. See https://hub.docker.com/repository/docker/omnifroodle/astra-loom for information about launching the astra-loom docker container.
 
-2. Copy `example.env` to `.env` and update it with your Astra and Google credentials.
+2. Copy `example.env` to `.env` and update it with your Astra DB and Google credentials.
 
 3. Run the following to setup your environment:
 ```bash
@@ -85,14 +85,14 @@ _NOTE: You can skip any Google auth setup on gitpod.io, setting up Google auth o
 [![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/datastax-examples/astra-loom)
 
 2. You will be prompted for the following:
-* "ASTRA_ID" - This is your Astra database ID, you can find this on the Astra web dashboard
-* "ASTRA_REGION" - The region where your Astra database is hosted, this is also on the Astra web dashboard
-* "ASTRA_USERNAME" - The username for you Astra database
-* "ASTRA_PASSWORD" - The password for your Astra username
+* "ASTRA_ID" - This is your Astra DB ID, you can find this on the Astra DB web dashboard
+* "ASTRA_REGION" - The region where your Astra DB is hosted, this is also on the Astra DB web dashboard
+* "ASTRA_USERNAME" - The username for you Astra DB
+* "ASTRA_PASSWORD" - The password for your Astra DB username
 
-3. The webserver should start automatically in a new window or tab of your brower.
+3. The webserver should start automatically in a new window or tab of your browser.
 
-4. Open a terminal and initialize your Astra db schema with the following command:
+4. Open a terminal and initialize your Astra DB schema with the following command:
 ```bash
 mix loom.init
 ```
